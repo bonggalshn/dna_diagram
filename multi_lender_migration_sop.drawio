@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T07:30:18.485Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="mlt7ImgzwskNg1_TDXCA" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T07:32:03.818Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bsFLxaPGq6I4qgpzdQva" version="21.4.0" type="github">
   <diagram name="Page-1" id="yMRtq_tOVf9KgKA8d2su">
     <mxGraphModel dx="2284" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-XOHPr6wek62RwTRiPl6-2" value="Insert user-lender map into pre_register_user_lender table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="150" width="180" height="60" as="geometry" />
+          <mxGeometry x="-100" y="100" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-XOHPr6wek62RwTRiPl6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-XOHPr6wek62RwTRiPl6-3" target="-XOHPr6wek62RwTRiPl6-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-XOHPr6wek62RwTRiPl6-3" value="User open dashboard or cashier" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="570" width="180" height="60" as="geometry" />
+          <mxGeometry x="-100" y="620" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-XOHPr6wek62RwTRiPl6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.311;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.406;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-XOHPr6wek62RwTRiPl6-7" target="-XOHPr6wek62RwTRiPl6-8">
           <mxGeometry relative="1" as="geometry" />
@@ -52,6 +52,18 @@
         </mxCell>
         <mxCell id="-XOHPr6wek62RwTRiPl6-21" value="have migration order" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-XOHPr6wek62RwTRiPl6-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="240" as="sourcePoint" />
+            <mxPoint x="760" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-XOHPr6wek62RwTRiPl6-26" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="560" as="sourcePoint" />
+            <mxPoint x="760" y="560" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
