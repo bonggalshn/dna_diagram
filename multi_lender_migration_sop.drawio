@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T06:28:01.072Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g3BedjyIEBu3-f4rYt18" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-06T06:28:36.529Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_17qwIUd3k_EIGTH5Skd" version="21.5.2" type="github" pages="2">
   <diagram name="migration flow" id="yMRtq_tOVf9KgKA8d2su">
     <mxGraphModel dx="2044" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -249,7 +249,7 @@
           <mxGeometry x="400" y="1390" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vYFlg3HIIu30CgKf2KbL-1" value="1. 2 encrypted ecdh&lt;br&gt;2. store db pakai encrypt dana&lt;br&gt;3. ketika mau kirim perlu decrypt lagi&lt;br&gt;4. setup oss in lms&lt;br&gt;5. adjust DDL for member info table&lt;br&gt;6. maintain backward compatibility to check card image value before re register to another lender" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="880" y="760" width="200" height="330" as="geometry" />
+          <mxGeometry x="860" y="760" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HAb3ORyqEuI_BF2itFP9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HAb3ORyqEuI_BF2itFP9-7" target="BCVqTMtVSpXgQy0Q5zYh-49">
           <mxGeometry relative="1" as="geometry" />
