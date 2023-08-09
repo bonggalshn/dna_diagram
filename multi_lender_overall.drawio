@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-07-07T08:29:15.705Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Sc5NUIrmIbZuMBRG8kW3" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T06:27:37.812Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="m0Z6jlyhbZ1IXyg_ielJ" version="21.6.7" type="github" pages="2">
   <diagram name="Repayment" id="u6RbmBkfoS_0TtaYo3Ja">
-    <mxGraphModel dx="1434" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eUStSOpd03rxPr9mRNn9" name="repayment auto deduct multi lender">
+    <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xdIjazwob64hvj00rwqB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-1" target="xdIjazwob64hvj00rwqB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-1" value="lms repayment consult" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-4" target="xdIjazwob64hvj00rwqB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-4" value="split 70 bill" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-5" target="xdIjazwob64hvj00rwqB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-5" value="filter other lender" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-6" value="assemble repayment composition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-7" target="xdIjazwob64hvj00rwqB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-11" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xdIjazwob64hvj00rwqB-10">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.025;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-7" target="xdIjazwob64hvj00rwqB-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="320" />
+              <mxPoint x="400" y="742" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-16" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xdIjazwob64hvj00rwqB-14">
+          <mxGeometry x="-0.5312" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-7" value="is multi lender off" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-9" target="xdIjazwob64hvj00rwqB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-13" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xdIjazwob64hvj00rwqB-12">
+          <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xdIjazwob64hvj00rwqB-9" target="xdIjazwob64hvj00rwqB-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="480" />
+              <mxPoint x="430" y="765" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xdIjazwob64hvj00rwqB-17">
+          <mxGeometry x="-0.7506" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xdIjazwob64hvj00rwqB-9" value="contains other lender" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
