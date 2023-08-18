@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T04:11:12.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="07-lbwDwmOPGTBxjAhOR" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-18T04:24:45.120Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="OEixJ4rFXygV1IWtl2CM" version="21.6.8" type="github" pages="3">
   <diagram name="Repayment" id="u6RbmBkfoS_0TtaYo3Ja">
     <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -311,6 +311,9 @@
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--84" value="installmentRequestId: A&lt;br&gt;installmentValue: 3.000 x 4&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="daaPgEbFkk6jO1b2-pX--93" value="Need to fix:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. Store amount in snapshot and validate when payment apply&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. Query installment info using unique requestId from FE instead of transId (database record and size can increase significantly)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;or&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;installmentRequestId + originalOrderAmount&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1820" width="360" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
