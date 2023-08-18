@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T04:09:47.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1gRWpBs4M1_jSmH2ntb1" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-18T04:11:12.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="07-lbwDwmOPGTBxjAhOR" version="21.6.8" type="github" pages="3">
   <diagram name="Repayment" id="u6RbmBkfoS_0TtaYo3Ja">
     <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,10 +99,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--20" value="choose add-on 2.000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--4">
-          <mxGeometry x="20" y="410" width="140" height="60" as="geometry" />
+          <mxGeometry x="30" y="410" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--21" value="query installment info&lt;br&gt;amount: 12.000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--4">
-          <mxGeometry x="20" y="510" width="140" height="60" as="geometry" />
+          <mxGeometry x="30" y="510" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="daaPgEbFkk6jO1b2-pX--4" source="daaPgEbFkk6jO1b2-pX--32" target="daaPgEbFkk6jO1b2-pX--33">
           <mxGeometry relative="1" as="geometry" />
