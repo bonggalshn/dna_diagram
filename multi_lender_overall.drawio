@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T04:02:57.575Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="OoI7Dz3e3V3Kbyy-vAsx" version="21.6.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-08-18T04:09:47.079Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1gRWpBs4M1_jSmH2ntb1" version="21.6.8" type="github" pages="3">
   <diagram name="Repayment" id="u6RbmBkfoS_0TtaYo3Ja">
     <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6WMNtALTuQiKL-KH47rM" name="Page-3">
-    <mxGraphModel dx="1194" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +185,7 @@
         <mxCell id="daaPgEbFkk6jO1b2-pX--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="daaPgEbFkk6jO1b2-pX--6" source="daaPgEbFkk6jO1b2-pX--28" target="daaPgEbFkk6jO1b2-pX--29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="daaPgEbFkk6jO1b2-pX--28" value="calculate installment for amount: 12.000" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--6">
+        <mxCell id="daaPgEbFkk6jO1b2-pX--28" value="calculate installment for amount: 12.000&lt;br&gt;(3.000 x 4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--6">
           <mxGeometry x="30" y="610" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="daaPgEbFkk6jO1b2-pX--6" source="daaPgEbFkk6jO1b2-pX--29" target="daaPgEbFkk6jO1b2-pX--78">
@@ -203,7 +203,7 @@
         <mxCell id="daaPgEbFkk6jO1b2-pX--57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="daaPgEbFkk6jO1b2-pX--6" source="daaPgEbFkk6jO1b2-pX--50" target="daaPgEbFkk6jO1b2-pX--55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="daaPgEbFkk6jO1b2-pX--50" value="create payment order" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--6">
+        <mxCell id="daaPgEbFkk6jO1b2-pX--50" value="create payment order with amount 10.000" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="daaPgEbFkk6jO1b2-pX--6">
           <mxGeometry x="30" y="1190" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="daaPgEbFkk6jO1b2-pX--6" source="daaPgEbFkk6jO1b2-pX--51" target="daaPgEbFkk6jO1b2-pX--69">
@@ -248,11 +248,19 @@
         <mxCell id="daaPgEbFkk6jO1b2-pX--42" value="bill_installment_snapshot" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="870" y="60" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="daaPgEbFkk6jO1b2-pX--88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="daaPgEbFkk6jO1b2-pX--43" target="daaPgEbFkk6jO1b2-pX--45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--43" value="installmentRequestId: A&lt;br&gt;installment value: 2.500 x 4" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="daaPgEbFkk6jO1b2-pX--10" target="daaPgEbFkk6jO1b2-pX--43">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daaPgEbFkk6jO1b2-pX--86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="daaPgEbFkk6jO1b2-pX--45" target="daaPgEbFkk6jO1b2-pX--84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="952" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--45" value="installmentRequestId: A&lt;br&gt;installmentValue: 3.000 x 4&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="850" y="812" width="120" height="60" as="geometry" />
@@ -262,7 +270,7 @@
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="2170" as="sourcePoint" />
+            <mxPoint x="800" y="2170" as="sourcePoint" />
             <mxPoint x="800" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -297,6 +305,12 @@
         </mxCell>
         <mxCell id="daaPgEbFkk6jO1b2-pX--83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="daaPgEbFkk6jO1b2-pX--79" target="daaPgEbFkk6jO1b2-pX--80">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daaPgEbFkk6jO1b2-pX--87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="daaPgEbFkk6jO1b2-pX--84" target="daaPgEbFkk6jO1b2-pX--67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="daaPgEbFkk6jO1b2-pX--84" value="installmentRequestId: A&lt;br&gt;installmentValue: 3.000 x 4&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
